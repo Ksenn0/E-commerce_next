@@ -10,7 +10,7 @@ export default function Header(){
        <header className="bg-primary-rose text-dark p-4 shadow-md">
            <div className="container mx-auto flex justify-between items-center">
            <Link href="/" className="text-2xl font-bold">
-           E-commerce
+           Roze Magazine
            </Link>
            <nav>
                <Link href="/carrinho" className="bg-accent-gold text-cream px-4 py-2 rounded hover:bg-accent-mauve">
