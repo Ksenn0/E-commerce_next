@@ -64,21 +64,21 @@ Loja virtual completa para venda de perfumes com entrega local. O sistema permit
 4. Rode o projeto:
    ```bash
    npm run dev
-  Acesse: http://localhost:3000
+Acesse: http://localhost:3000
 
-📁 Estrutura de Pastas
-```bash
+5. 📁 Estrutura de Pastas
+   ```bash
    src/
-    ├── app/
-    │   ├── admin/           # Painel administrativo
-    │   ├── carrinho/        # Carrinho de compras
-    │   ├── cadastro/        # Cadastro em duas etapas
-    │   ├── perfil/          # Perfil do usuário
-    │   └── layout.js        # Layout global + metadata
-    ├── context/             # Contexto do carrinho
-    ├── lib/                 # Configurações do Supabase (client e server)
-    ├── utils/               # Funções auxiliares (formatPrice, etc.)
-    └── public/              # Imagens estáticas e favicon
+   ├── app/
+   │   ├── admin/           # Painel administrativo
+   │   ├── carrinho/        # Carrinho de compras
+   │   ├── cadastro/        # Cadastro em duas etapas
+   │   ├── perfil/          # Perfil do usuário
+   │   └── layout.js        # Layout global + metadata
+   ├── context/             # Contexto do carrinho
+   ├── lib/                 # Configurações do Supabase (client e server)
+   ├── utils/               # Funções auxiliares (formatPrice, etc.)
+   └── public/              # Imagens estáticas e favicon
 
 🔒 Segurança Implementada
 
@@ -86,11 +86,6 @@ Políticas RLS restritas por auth.uid() para ações administrativas
 Apenas admins específicos podem criar, editar e excluir produtos
 Upload de imagens seguro no Supabase Storage
 Variáveis de ambiente configuradas corretamente no Vercel
-
-
----
-
-### Parte 3 (Final)
 
 ```markdown
 ## 🚀 Deploy
